@@ -1,0 +1,37 @@
+{
+  "name": "@beuluis/prettier-config",
+  "version": "1.0.0",
+  "description": "A shared prettier config for my projects",
+  "main": ".prettierrc.js",
+  "files": [
+    "**/*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beuluis/prettier-config.git"
+  },
+  "author": "Luis Beu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beuluis/prettier-config/issues"
+  },
+  "homepage": "https://github.com/beuluis/prettier-config#readme",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "lint-staged": "^12.3.7"
+  },
+  "peerDependencies": {
+    "prettier": "^2"
+  }
+}
