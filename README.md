@@ -18,6 +18,7 @@
     <a href="https://github.com/beuluis/prettier-config/issues">Report Bug</a>
     ·
     <a href="https://github.com/beuluis/prettier-config/issues">Request Feature</a>
+    ·
   </p>
 </p>
 
@@ -46,7 +47,6 @@ Extend `package.json` file with the following configuration:
     "prettier": "@beuluis/prettier-config"
 }
 ```
-
 
 <!-- CONTRIBUTING -->
 
