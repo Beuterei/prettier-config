@@ -19,8 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/beuluis/prettier-config.git"
   },
-  "author": "Luis Beu",
-  "license": "ISC",
+  "author": "Luis Beu <me@luisbeu.de> (https://luisbeu.de)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/beuluis/prettier-config/issues"
   },
