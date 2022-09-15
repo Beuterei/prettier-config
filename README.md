@@ -48,6 +48,17 @@ Extend `package.json` file with the following configuration:
 }
 ```
 
+## Extending
+
+In case you want to extend prettier configurations, do not use the previous integration, but instead create a `.prettierrc.js` and:
+
+```javascript
+module.exports = {
+    ...require('@beuluis/prettier-config'),
+    tabWidth: 2,
+};
+```
+
 <!-- CONTRIBUTING -->
 
 ## Contributing

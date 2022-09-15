@@ -1,39 +1,42 @@
 {
-    "name": "@beuluis/prettier-config",
-    "version": "1.0.2",
-    "description": "A shared prettier config for my projects",
-    "main": ".prettierrc.js",
-    "files": [
-        "**/*.js"
-    ],
-    "scripts": {
-        "test": "echo \"Error: no test specified\"",
-        "lint-staged": "lint-staged",
-        "prepare": "husky install"
-    },
-    "lint-staged": {
-        "*.{js,json,md}": [
-            "prettier --write"
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/beuluis/prettier-config.git"
-    },
-    "author": "Luis Beu <me@luisbeu.de> (https://luisbeu.de)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/beuluis/prettier-config/issues"
-    },
-    "homepage": "https://github.com/beuluis/prettier-config#readme",
-    "dependencies": {
-        "prettier": "^2.6.2"
-    },
-    "devDependencies": {
-        "lint-staged": "^12.3.7",
-        "husky": "^8.0.0"
-    },
-    "peerDependencies": {
-        "prettier": "^2"
-    }
+  "name": "@beuluis/prettier-config",
+  "version": "1.0.2",
+  "description": "A shared prettier config for my projects",
+  "main": ".prettierrc.js",
+  "files": [
+    "**/*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beuluis/prettier-config.git"
+  },
+  "author": "Luis Beu <me@luisbeu.de> (https://luisbeu.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beuluis/prettier-config/issues"
+  },
+  "homepage": "https://github.com/beuluis/prettier-config#readme",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "lint-staged": "^12.3.7",
+    "husky": "^8.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2"
+  }
 }
