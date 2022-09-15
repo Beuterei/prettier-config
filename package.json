@@ -10,8 +10,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "lint-staged": "lint-staged",
+    "test": "npm run format",
+    "format": "prettier --check .",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -30,12 +30,19 @@
   },
   "homepage": "https://github.com/beuluis/prettier-config#readme",
   "devDependencies": {
-    "husky": "^8.0.0",
+    "@beuluis/hook-cli": "^1.1.2",
+    "husky": "^7.0.0",
     "lint-staged": "^12.3.7",
     "np": "^7.6.2",
     "prettier": "^2"
   },
   "peerDependencies": {
     "prettier": "^2"
-  }
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "linting",
+    "prettier-shareable-config"
+  ]
 }
