@@ -59,6 +59,28 @@ module.exports = {
 };
 ```
 
+## EditorConfig
+
+Here is a EditorConfig to be used alongside this prettier config.
+
+```
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.json]
+indent_size = 2
+
+[*.{yaml,yml}]
+indent_size = 2
+```
+
 <!-- CONTRIBUTING -->
 
 ## Contributing
