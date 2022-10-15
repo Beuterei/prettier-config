@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/beuluis/prettier-config#readme",
   "devDependencies": {
-    "@beuluis/hook-cli": "1.1.2",
+    "@beuluis/hook-cli": "1.1.4",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "np": "7.6.2",
