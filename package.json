@@ -44,5 +44,9 @@
     "prettier-config",
     "linting",
     "prettier-shareable-config"
-  ]
+  ],
+  "np": {
+    "tests": false,
+    "publish": false
+  }
 }
