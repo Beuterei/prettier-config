@@ -33,7 +33,7 @@
     "@beuluis/hook-cli": "1.1.4",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "np": "7.6.2",
+    "np": "7.7.0",
     "prettier": "2.7.1"
   },
   "peerDependencies": {
